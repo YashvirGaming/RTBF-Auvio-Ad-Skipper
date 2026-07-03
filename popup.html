@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header Card -->
+    <div class="card header-card">
+      <h2>RTBF Auvio Ad Skipper v1.0</h2>
+      <p>Automatically fast-forwards RTBF Auvio ad breaks.</p>
+    </div>
+
+    <!-- Status Card -->
+    <div class="card status-card">
+      <div class="status-info">
+        <span class="label">Status</span>
+        <div id="status-indicator" class="status-text active">
+          <span class="dot"></span><span id="status-word">Active</span>
+        </div>
+      </div>
+      <label class="toggle-switch">
+        <input type="checkbox" id="status-toggle" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <!-- Stats Card -->
+    <div class="card stats-card">
+      <h3>Ad Breaks Skipped</h3>
+      <div class="counter" id="lifetime-counter">0</div>
+      <span class="counter-label">Lifetime</span>
+    </div>
+
+    <!-- Action Button -->
+    <button id="reset-btn" class="action-btn">Reset Statistics</button>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>RTBF Auvio Auto Ads Fast Forwarder</p>
+      <p class="author">Developed By <a href="https://github.com/YashvirGaming" target="_blank" id="author-link">Yashvir Gaming</a></p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
