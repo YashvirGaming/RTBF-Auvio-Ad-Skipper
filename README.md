@@ -10,4 +10,5 @@ This extension automatically handles advertisement transitions on RTBF Auvio. It
 
 > **Disclaimer:** This extension is an independent developer project and is not affiliated with or endorsed by RTBF or Auvio.
 
-**Watch video:** [https://www.youtube.com/shorts/R-9BxfWbotI](https://www.youtube.com/shorts/R-9BxfWbotI)
+### Demo Video
+[![Watch the Ad Skipper in action](https://img.youtube.com/vi/R-9BxfWbotI/0.jpg)](https://www.youtube.com/shorts/R-9BxfWbotI)
